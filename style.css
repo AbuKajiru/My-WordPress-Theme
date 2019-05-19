@@ -1,0 +1,17 @@
+/*
+Theme Name: CRUD Theme
+Theme URI: https://myawesometheme.awesome
+Author: Abubakar Kajiru Mohamed
+Author URI: https://github.com/AbuKajiru
+Description: The theme for my CRUD site
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: crud-theme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body{
+  background-color: red;
+}

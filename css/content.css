@@ -1,0 +1,151 @@
+.my-title{
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-title{
+  font-size: 6rem;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  margin: 0;
+  font-family: 'Tangerine', cursive;
+}
+
+.sub-title{
+  font-size: 2rem;
+  margin: 0;
+  padding-top: 1rem;
+  font-weight: 400;
+}
+
+.content{
+  padding: 1rem 0 0 0;
+  margin: 0 0 1rem 0;
+}
+
+.content-container{
+  width: 400px;
+  padding: 1rem;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 5px 9px rgba(0,0,0,0.07);
+  -moz-box-shadow: 0px 1px 5px 9px rgba(0,0,0,0.07);
+  box-shadow: 0px 1px 5px 9px rgba(0,0,0,0.07);
+}
+
+.content-notice{
+  border: 2px solid #f39c12;
+  color: white;
+  box-sizing: border-box;
+  padding: 0 0 0 1rem;
+  margin: 0 0 1rem 0;
+  background-color: #f39c12;
+}
+
+.alert{
+  border: 2px solid red;
+  color: white;
+  box-sizing: border-box;
+  padding: 0 0 0 1rem;
+  margin: 0 0 1rem 0;
+  background-color: red;
+}
+
+.content-form label{
+  font-weight: bold;
+  font-family: calibri;
+}
+
+.content-form input[type="text"], input[type="password"], input[type="file"], select{
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.content-form input[type="submit"]{
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #3498db;
+  border: none;
+  color: white;
+}
+
+.manage-login-text, .manage-login-text a{
+  text-decoration: none;
+  margin: 0.8rem 0 0 0;
+}
+
+footer{
+  height: 60px;
+  border-top: 2px solid #fff;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background-color: #34495e;
+}
+
+footer img{
+  height: 20px;
+  padding: 0.1rem 0 0 0;
+}
+
+footer a{
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.mydata{
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+
+.mydata table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 10rem;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td:last-child{
+  text-align: center;
+}
+
+.logmeout{
+  background-color: red;
+}
+
+.logmeout-a{
+  color: white;
+}
+
+
+.buttonUpdate{
+  cursor: pointer;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-family: calibri;
+  font-weight: bold;
+  margin: 0 auto;
+  color: white;
+  background-color: #2ecc71;
+  border: none;
+}
